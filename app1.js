@@ -130,11 +130,11 @@ var data = [
         color: 'rgba(17, 157, 255,0.01)'
     },
     x:x,
-        y:y,
-            text:states,
-        hovertemplate:
+    y:y,
+    text:states,
+    hovertemplate:
             "<b>%{text}</b><br><br>" +
-            "x cordinate: %{x}<br>" +
+            "x cordinate: %{y}<br>" +
             "y cordinate: %{y}<br>" +
             "<extra></extra>",
             showlegend:false
