@@ -29,6 +29,7 @@ for(let i=0;i<data.length;i=i+1){
            stateColor.push('#95cf95')
        }
        }
+   sgdValues.push(stateSgd)
 }
 
 var layout = {
