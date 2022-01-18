@@ -17,7 +17,7 @@ for(let i=0;i<data.length;i=i+1){
    stateSgd=[]
    stateColor=[]
    for(let j=0;j<data[i].hd.length;j++){
-       const val=data[i].hd[1]
+       const val=data[i].hd[j][1]
        stateSgd.push(val)
        if(val<50){
            stateColor.push('#ea9393')
@@ -132,10 +132,25 @@ var data = [
     x:x,
     y:y,
     text:states,
+    customdata:sgdValues,
     hovertemplate:
             "<b>%{text}</b><br><br>" +
-            "x cordinate: %{y}<br>" +
-            "y cordinate: %{y}<br>" +
+            "SGD1: %{customdata[0]}<br>" +
+            "SGD2: %{customdata[1]}<br>" +
+            "SGD3: %{customdata[2]}<br>" +
+            "SGD4: %{customdata[3]}<br>" +
+            "SGD5: %{customdata[4]}<br>" +
+            "SGD6: %{customdata[5]}<br>" +
+            "SGD7: %{customdata[6]}<br>" +
+            "SGD8: %{customdata[7]}<br>" +
+            "SGD9: %{customdata[8]}<br>" +
+            "SGD10: %{customdata[9]}<br>" +
+            "SGD11: %{customdata[10]}<br>" +
+            "SGD12: %{customdata[11]}<br>" +
+            "SGD13: %{customdata[12]}<br>" +
+            "SGD14: %{customdata[13]}<br>" +
+            "SGD15: %{customdata[14]}<br>" +
+            "SGD16: %{customdata[15]}<br>" +
             "<extra></extra>",
             showlegend:false
     
