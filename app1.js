@@ -137,7 +137,7 @@ var data = [
     hovertemplate:
             "<b>%{text}</b><br><br>" +
             "SGD1: %{customdata[0]}<br>" +
-            "<div style="background-color:red">SGD2: %{customdata[1]}<br></div>" +
+            "SGD2: %{customdata[1]}<br>" +
             "SGD3: %{customdata[2]}<br>" +
             "SGD4: %{customdata[3]}<br>" +
             "SGD5: %{customdata[4]}<br>" +
